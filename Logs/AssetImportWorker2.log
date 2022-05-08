@@ -1,0 +1,362 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'it' Physical Memory: 15696 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Giorgio/Desktop/vr-uni/ToG
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62992
+Successfully changed project path to: C:/Users/Giorgio/Desktop/vr-uni/ToG
+C:/Users/Giorgio/Desktop/vr-uni/ToG
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 76.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Giorgio/Desktop/vr-uni/ToG/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7848 MB
+    Driver:   30.0.15002.1004
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009769 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1184ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (815ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004290 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.767 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1768ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1341ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (667ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (477ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1880 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (131.1 KB). Loaded Objects now: 2356.
+Memory consumption went from 83.0 MB to 82.9 MB.
+Total: 5.656300 ms (FindLiveObjects: 0.439100 ms CreateObjectMapping: 0.074400 ms MarkObjects: 4.902200 ms  DeleteObjects: 0.237300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4926.569891 seconds.
+  path: Assets/Prefabs/Enemy1.prefab
+  artifactKey: Guid(5e06a4459c1b20e46a7343afd27ee730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy1.prefab using Guid(5e06a4459c1b20e46a7343afd27ee730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df584eacc159a2e75d6a2ef61829f588') in 0.977336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.715620 seconds.
+  path: Assets/Cartoon Heroes
+  artifactKey: Guid(e02af10fb6874b147b95e6a00ee40141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes using Guid(e02af10fb6874b147b95e6a00ee40141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e967d29b6c4f1808536aa89a84ac361') in 0.010829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.335112 seconds.
+  path: Assets/Cartoon Heroes/Character Prefabs
+  artifactKey: Guid(a027c86982ae9a84db9d9292a2dd2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Character Prefabs using Guid(a027c86982ae9a84db9d9292a2dd2556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a4c621c87f2146e1c43f435dea108f') in 0.017779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.258579 seconds.
+  path: Assets/Cartoon Heroes/Character Prefabs/Male
+  artifactKey: Guid(a94dbda45a3fed340a9b2fff23656bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Character Prefabs/Male using Guid(a94dbda45a3fed340a9b2fff23656bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a566963d6429ca717c4dac936e67ef') in 0.020810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.186731 seconds.
+  path: Assets/Cartoon Heroes/Character Prefabs/Male/Male A.prefab
+  artifactKey: Guid(7e6e29f21a00d5f499e21eb93d6fabaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Character Prefabs/Male/Male A.prefab using Guid(7e6e29f21a00d5f499e21eb93d6fabaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a261e0d12fdf84ff99d36c1b90f0ba') in 0.432840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.306163 seconds.
+  path: Assets/Cartoon Heroes/Male
+  artifactKey: Guid(8b9b6e637e73c5341beaea90346b0718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Male using Guid(8b9b6e637e73c5341beaea90346b0718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbccde4bf756c176ced2982be3089a2c') in 0.005946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.698009 seconds.
+  path: Assets/Cartoon Heroes/Male/3D
+  artifactKey: Guid(508c5b6a428c4614d93fecb82103dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Male/3D using Guid(508c5b6a428c4614d93fecb82103dac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597f05f37e75750f9fd97547b1c6a3e7') in 0.016563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.880366 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton
+  artifactKey: Guid(de8a5ea007079764fabff008e309b50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton using Guid(de8a5ea007079764fabff008e309b50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160e6212e03ef0bf6473f8a5b790bc86') in 0.015051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094990 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Male_Animation_Skeleton.FBX
+  artifactKey: Guid(7e30eee73c241d5448ce0ac372cf6602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Male_Animation_Skeleton.FBX using Guid(7e30eee73c241d5448ce0ac372cf6602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1337e7ff5bbaeb368ed8ae71e0f7ca7b') in 0.451290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.726571 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Male_Animation_Skeleton_Default.controller
+  artifactKey: Guid(d7c55390ab0320c47b84f63184ecb1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Male_Animation_Skeleton_Default.controller using Guid(d7c55390ab0320c47b84f63184ecb1b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72388424ff9d10bd5522ab9eb7ba8f53') in 0.022226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.215623 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animation/@Backword right diagonal.fbx
+  artifactKey: Guid(c13ad2c2633efa94c8d92589877ca663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animation/@Backword right diagonal.fbx using Guid(c13ad2c2633efa94c8d92589877ca663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7872e9191d638d243d95446c46c8ebbd') in 0.132536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animation/@Backword left diagonal.fbx
+  artifactKey: Guid(60e0ad264c8afbc4db055915c74813b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animation/@Backword left diagonal.fbx using Guid(60e0ad264c8afbc4db055915c74813b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e42f5ca8c0fd51899ca1ac89ce19789') in 0.071657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 188.642841 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animation/@Falling.fbx
+  artifactKey: Guid(3683e1301d37f96438707a73380b62a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animation/@Falling.fbx using Guid(3683e1301d37f96438707a73380b62a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a341e5f35eb8c881f238aaf3dec504b') in 0.086280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Jump.FBX
+  artifactKey: Guid(8ba2178ed4716f348b34190ecf5d365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Jump.FBX using Guid(8ba2178ed4716f348b34190ecf5d365e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3791b0a8aeaedc6a07243b6e5809a447') in 0.028193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009863 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Roll.FBX
+  artifactKey: Guid(69f1e5d1c1139c34ea159d3f7d42cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Roll.FBX using Guid(69f1e5d1c1139c34ea159d3f7d42cdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db8b1f1243101b60774fcec92e3f1ef') in 0.023823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Attacks.FBX
+  artifactKey: Guid(470701484e352274bbde411212de5515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Attacks.FBX using Guid(470701484e352274bbde411212de5515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316e4884dff85243273c572f9346deaf') in 0.020725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Block.FBX
+  artifactKey: Guid(020c8f2ae0efb944fb08ff9c463cab8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Block.FBX using Guid(020c8f2ae0efb944fb08ff9c463cab8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0654fed0b97d75468a411fe24a3d83') in 0.021134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Damage.FBX
+  artifactKey: Guid(436e584145a65834ba98fc684b2e4934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Damage.FBX using Guid(436e584145a65834ba98fc684b2e4934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530f9675db5c38644ada2e0628823170') in 0.022701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Die.FBX
+  artifactKey: Guid(88b371f485b13064183196949595c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Die.FBX using Guid(88b371f485b13064183196949595c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573895e2fbd8118ff519e8697b8a5119') in 0.023490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Sprint.FBX
+  artifactKey: Guid(ae15895b0c240414fb78082f0a01a2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Sprint.FBX using Guid(ae15895b0c240414fb78082f0a01a2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2138c8501d2dea284e8be3cc9b8769') in 0.023839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Walk.FBX
+  artifactKey: Guid(958bd2cccfa87b74a9a880ee35f4f534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Female/3D/Animation Skeleton/Animations/Female_Animation@Female_Sword_Walk.FBX using Guid(958bd2cccfa87b74a9a880ee35f4f534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bdf670d908a7dec1702fe05d68647f') in 0.026189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animation/@Forward.fbx
+  artifactKey: Guid(a2ae3e599b8e4e645a3b06ee3d042b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animation/@Forward.fbx using Guid(a2ae3e599b8e4e645a3b06ee3d042b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e841fa6f2762f05adf44ec65ec6c5e9') in 0.079059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006658 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animation/@Jump Backward.fbx
+  artifactKey: Guid(455eee0f602ca0e4380e49cbf69b682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animation/@Jump Backward.fbx using Guid(455eee0f602ca0e4380e49cbf69b682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19748a2dc04f2bf1e288140c21022b8') in 0.091346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Die.FBX
+  artifactKey: Guid(1b89fcc283287844b8d68f9e0cc329cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Die.FBX using Guid(1b89fcc283287844b8d68f9e0cc329cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a8036ba61d8c335060d0463a9dd7e4') in 0.034800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animation/@Forward Diagonal.fbx
+  artifactKey: Guid(5bad211e1d1c26546b42f59724242b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animation/@Forward Diagonal.fbx using Guid(5bad211e1d1c26546b42f59724242b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217e7fb2c9cd9fef7c7f76bd45bff916') in 0.086634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Block.FBX
+  artifactKey: Guid(fe09d69bd98991f4d84f6c67e4e3492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Block.FBX using Guid(fe09d69bd98991f4d84f6c67e4e3492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8794eee86c7410724f1ec738598798b5') in 0.027014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sprint.FBX
+  artifactKey: Guid(7e9d3ca0c95bb8749ab91f3a407bea2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sprint.FBX using Guid(7e9d3ca0c95bb8749ab91f3a407bea2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a84224a1a29d813a44f2ed13a833549') in 0.028131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animation/@Left.fbx
+  artifactKey: Guid(d53c0ce4466dd1343a5226d7124ee4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animation/@Left.fbx using Guid(d53c0ce4466dd1343a5226d7124ee4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34194b3fc6fd5331370661fb1ac9ce11') in 0.091896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animation/@JumpForward.fbx
+  artifactKey: Guid(f8a5d0014a63c5c478783fc752423f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animation/@JumpForward.fbx using Guid(f8a5d0014a63c5c478783fc752423f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f15412a57c6e5d7233b8d78d346e7c5') in 0.088994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.355861 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Sprint.FBX
+  artifactKey: Guid(92e13e67a26415646a752312d3ac0230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Sword_Sprint.FBX using Guid(92e13e67a26415646a752312d3ac0230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e8b15b664d806dcde3e6b738b4d928') in 0.032651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animation/@Forward right diagonal.fbx
+  artifactKey: Guid(e3bcf9fc4c20eee4185cb99ffe39f172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animation/@Forward right diagonal.fbx using Guid(e3bcf9fc4c20eee4185cb99ffe39f172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15d70da5378e6cbe40e234e659305ab') in 0.069090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Walk.FBX
+  artifactKey: Guid(00ed1997eb74a40498b28747b3fdb59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cartoon Heroes/Male/3D/Animation Skeleton/Animations/Male_Animation@Male_Walk.FBX using Guid(00ed1997eb74a40498b28747b3fdb59a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c2611fffb73e54da81664ec2bcad14') in 0.016819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fantasy Monster(wizard) Demo/Animation/Ch39_nonPBR@Standing 1H Magic Attack 03.fbx
+  artifactKey: Guid(17e355a749201d04485e7b74b72c6f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Monster(wizard) Demo/Animation/Ch39_nonPBR@Standing 1H Magic Attack 03.fbx using Guid(17e355a749201d04485e7b74b72c6f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3347084dbc87e42a4ad390bf0e4c1f27') in 0.060030 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
